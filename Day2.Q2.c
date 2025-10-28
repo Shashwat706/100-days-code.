@@ -3,19 +3,19 @@
 int main() {
     float num1, num2, sum, difference, product, quotient;
 
-    // Taking input from user
+    
     printf("Enter first number: ");
     scanf("%f", &num1);
 
     printf("Enter second number: ");
     scanf("%f", &num2);
 
-    // Calculations
+
     sum = num1 + num2;
     difference = num1 - num2;
     product = num1 * num2;
 
-    // To avoid division by zero
+    
     if (num2 != 0)
         quotient = num1 / num2;
     else {
@@ -23,7 +23,7 @@ int main() {
         return 0;
     }
 
-    // Displaying results
+    
     printf("Sum = %.2f\n", sum);
     printf("Difference = %.2f\n", difference);
     printf("Product = %.2f\n", product);
